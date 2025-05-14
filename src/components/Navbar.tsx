@@ -1,12 +1,13 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Briefcase, GraduationCap, Settings, User, Mail } from 'lucide-react';
+import { Menu, X, Briefcase, GraduationCap, Settings, User, Mail, UserCircle } from 'lucide-react'; // Added UserCircle for About
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
     { href: '#hero', label: 'Home', icon: <User size={18} /> },
+    { href: '#about', label: 'About', icon: <UserCircle size={18} /> }, // Added About Me link
     { href: '#experience', label: 'Experience', icon: <Briefcase size={18} /> },
     { href: '#education', label: 'Education', icon: <GraduationCap size={18} /> },
     { href: '#skills', label: 'Skills', icon: <Settings size={18} /> },
@@ -19,7 +20,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#hero" className="text-2xl font-bold text-portfolio-primary">
-              Your Name
+              Muneeb Baig
             </a>
           </div>
           <div className="hidden md:block">

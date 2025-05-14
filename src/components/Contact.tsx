@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Section from './Section';
-import { Mail, Phone, Link as LinkIcon } from 'lucide-react'; // Renamed Link to LinkIcon
+import { Mail, Phone, MapPin } from 'lucide-react'; // Added MapPin, removed LinkIcon
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Handle form submission logic here
-    alert("Form submitted! (This is a placeholder)");
+    alert("Form submitted! (This is a placeholder for muneebbaig71@gmail.com)");
   };
 
   return (
@@ -25,8 +25,8 @@ const Contact: React.FC = () => {
               <Mail className="text-portfolio-primary mr-3" size={22} />
               <div>
                 <h4 className="font-semibold text-portfolio-dark-purple">Email</h4>
-                <a href="mailto:youremail@example.com" className="text-portfolio-accent hover:underline">
-                  youremail@example.com
+                <a href="mailto:muneebbaig71@gmail.com" className="text-portfolio-accent hover:underline">
+                  muneebbaig71@gmail.com
                 </a>
               </div>
             </div>
@@ -34,21 +34,20 @@ const Contact: React.FC = () => {
               <Phone className="text-portfolio-primary mr-3" size={22} />
               <div>
                 <h4 className="font-semibold text-portfolio-dark-purple">Phone</h4>
-                <a href="tel:+1234567890" className="text-portfolio-accent hover:underline">
-                  +1 (234) 567-890
+                <a href="tel:+953455901816" className="text-portfolio-accent hover:underline">
+                  +953455901816
                 </a>
               </div>
             </div>
             <div className="flex items-center">
-              <LinkIcon className="text-portfolio-primary mr-3" size={22} />
+              <MapPin className="text-portfolio-primary mr-3" size={22} />
               <div>
-                <h4 className="font-semibold text-portfolio-dark-purple">LinkedIn</h4>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-portfolio-accent hover:underline">
-                  linkedin.com/in/yourprofile
-                </a>
+                <h4 className="font-semibold text-portfolio-dark-purple">Address</h4>
+                <p className="text-portfolio-neutral-gray">
+                  Ward no 8, Gujar Khan, Dist Rawalpindi, Pakistan
+                </p>
               </div>
             </div>
-             {/* Add more contact methods like GitHub if needed */}
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6 card-style p-8">

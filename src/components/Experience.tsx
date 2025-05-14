@@ -9,12 +9,12 @@ const experiences = [
     company: 'MR Sales and Lettings – Remote, Reading, UK',
     period: 'July 2023 – Present',
     responsibilities: [
-      'Managed the complete lettings process, from property marketing to contract finalization.',
-      'Conducted property viewings and facilitated tenant negotiations and inquiries.',
-      'Maintained and updated property listings on platforms including Street, Airbnb, Lodgify, Booking.com, and VRBO.',
-      'Coordinated maintenance tasks, liaising with contractors and landlords to resolve issues efficiently.',
-      'Ensured regulatory compliance, including HMO licensing and renewals.',
-      'Used CRM systems to manage workflows, track property statuses, and maintain client relationships.',
+      'Manage the full lettings process from marketing properties to finalizing contracts.',
+      'Conduct property viewings, handle tenant inquiries, and facilitate negotiations.',
+      'Oversee property listings across multiple platforms (Street, Airbnb, Lodgify, Booking.com, VRBO).',
+      'Coordinate maintenance requests, liaising with contractors and property owners for efficient issue resolution.',
+      'Ensure compliance with property regulations, including HMO license renewals.',
+      'Utilize CRM systems to track property status, manage client relationships, and streamline workflow.',
     ],
   },
 ];

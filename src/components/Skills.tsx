@@ -1,24 +1,28 @@
 
 import React from 'react';
 import Section from './Section';
-import { CheckCheck, Wrench, Users } from 'lucide-react';
+import { CheckCheck, Wrench, Users, Award } from 'lucide-react'; // Added Award icon
 
-const professionalSkills = [
+const keySkills = [
   'Lettings & Tenancy Management',
   'Client Relationship Management',
   'Property Listings & CRM Management',
   'Maintenance Coordination',
   'HMO Compliance & Licensing',
-  'Sales & Negotiation',
-  'Market Research & Advertising',
-  'Multi-tasking & Organization',
-  'Communication, Teamwork, Adaptability, Responsibility',
+];
+
+const softSkills = [
+  'Communication',
+  'Teamwork',
+  'Responsibility',
+  'Adaptability',
 ];
 
 const technicalSkills = [
-  'CRM Platforms: Street, Airbnb, Lodgify, Booking.com, VRBO',
-  'Microsoft Office Suite, Google Workspace',
+  'CRM Platforms: Street, Airbnb, Lodgify, Booking.com, VRBO, PriceLabs',
+  'Microsoft Office & Google Workspace',
   'Property Listing & Management Software',
+  'Revenue Management: PriceLabs',
 ];
 
 const SkillCategory: React.FC<{ title: string; skills: string[]; icon: React.ReactNode }> = ({ title, skills, icon }) => (
@@ -41,8 +45,9 @@ const SkillCategory: React.FC<{ title: string; skills: string[]; icon: React.Rea
 const Skills: React.FC = () => {
   return (
     <Section id="skills" title="Skills" className="bg-portfolio-soft-gray">
-      <div className="grid md:grid-cols-2 gap-8">
-        <SkillCategory title="Professional Skills" skills={professionalSkills} icon={<Users className="text-portfolio-primary" size={24} />} />
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <SkillCategory title="Key Skills" skills={keySkills} icon={<Award className="text-portfolio-primary" size={24} />} />
+        <SkillCategory title="Soft Skills" skills={softSkills} icon={<Users className="text-portfolio-primary" size={24} />} />
         <SkillCategory title="Technical Skills" skills={technicalSkills} icon={<Wrench className="text-portfolio-primary" size={24} />} />
       </div>
     </Section>

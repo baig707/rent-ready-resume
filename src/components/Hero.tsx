@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
       <div className="container mx-auto text-center">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white">
-            Hello, I'm [Your Name]
+            Hello, I'm Muneeb Baig
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white max-w-2xl mx-auto">
-            A dedicated and skilled Lettings Administrator with a background in Computer Science, passionate about property management and client satisfaction.
+            An experienced Lettings Administrator and Property Management Specialist with a passion for optimizing property operations and delivering exceptional client service.
           </p>
           <div className="space-x-4">
             <Button 

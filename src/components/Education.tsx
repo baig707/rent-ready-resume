@@ -5,8 +5,8 @@ import { GraduationCap, CalendarDays } from 'lucide-react';
 
 const educationHistory = [
   {
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'Your University Name', // Placeholder
+    degree: 'BS Computer Science',
+    institution: 'University Name (Details to be confirmed)', // Placeholder as per new info
     period: '2019 – 2023',
   },
 ];
@@ -27,7 +27,7 @@ const EducationCard: React.FC<typeof educationHistory[0]> = ({ degree, instituti
 
 const Education: React.FC = () => {
   return (
-    <Section id="education" title="Education" className="bg-portfolio-white">
+    <Section id="education" title="Educational History" className="bg-portfolio-white"> {/* Changed title slightly */}
       <div className="max-w-3xl mx-auto">
         {educationHistory.map((edu, index) => (
           <EducationCard key={index} {...edu} />
