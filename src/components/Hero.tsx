@@ -4,7 +4,10 @@ import { Button } from '@/components/ui/button'; // Using shadcn button
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="bg-gradient-to-r from-violet-500 via-purple-500 to-indigo-400 text-white section-padding min-h-[calc(100vh-4rem)] flex items-center">
+    <section 
+      id="hero" 
+      className="bg-gradient-to-br from-portfolio-primary via-portfolio-secondary to-portfolio-accent text-white section-padding min-h-[calc(100vh-4rem)] flex items-center"
+    >
       <div className="container mx-auto text-center">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white">
@@ -17,7 +20,7 @@ const Hero: React.FC = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="bg-white text-violet-700 hover:bg-gray-100 hover:text-violet-800 border-white hover:border-gray-100"
+              className="bg-white text-portfolio-primary hover:bg-gray-100 hover:text-portfolio-secondary border-white hover:border-gray-100 transition-colors duration-300"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Get In Touch
@@ -25,7 +28,7 @@ const Hero: React.FC = () => {
             <Button 
               variant="default" 
               size="lg"
-              className="bg-indigo-400 text-white hover:bg-indigo-500"
+              className="bg-portfolio-accent text-white hover:bg-sky-500 transition-colors duration-300" // Updated button style
               onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work

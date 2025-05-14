@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Section from './Section';
 import { BriefcaseBusiness, CalendarDays, Check } from 'lucide-react';
@@ -20,7 +19,7 @@ const experiences = [
 ];
 
 const ExperienceCard: React.FC<typeof experiences[0]> = ({ title, company, period, responsibilities }) => (
-  <div className="card-style mb-8 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+  <div className="card-style mb-8 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-portfolio-primary/20"> {/* Updated hover shadow */}
     <div className="flex items-center mb-3">
       <BriefcaseBusiness className="text-portfolio-primary mr-3" size={24} />
       <h3 className="text-xl font-semibold text-portfolio-dark-purple">{title}</h3>
