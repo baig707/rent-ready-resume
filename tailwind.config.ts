@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -27,9 +28,9 @@ export default {
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))',
-          // Custom portfolio colors
-          'portfolio-primary': '#9b87f5', // Primary Purple
-          'portfolio-secondary': '#7E69AB', // Secondary Purple
+          // Custom portfolio colors - brightened
+          'portfolio-primary': '#8B5CF6', // Brighter Purple
+          'portfolio-secondary': '#7C3AED', // Vibrant Purple
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -46,8 +47,8 @@ export default {
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))',
-          // Custom portfolio colors
-          'portfolio-accent': '#33C3F0', // Sky Blue
+          // Custom portfolio colors - brightened
+          'portfolio-accent': '#38BDF8', // Brighter Sky Blue
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -67,11 +68,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-        // Custom portfolio colors
-        'portfolio-dark-purple': '#1A1F2C',
-        'portfolio-light-purple': '#D6BCFA',
-        'portfolio-soft-gray': '#F1F0FB',
-        'portfolio-neutral-gray': '#8E9196',
+        // Custom portfolio colors - brightened
+        'portfolio-dark-purple': '#1E293B',
+        'portfolio-light-purple': '#C4B5FD',
+        'portfolio-soft-gray': '#F8FAFC',
+        'portfolio-neutral-gray': '#64748B',
         'portfolio-white': '#FFFFFF',
         'portfolio-black': '#000000e6',
 			},

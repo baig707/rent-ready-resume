@@ -1,10 +1,11 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 257 100% 98%; /* Corresponds to portfolio-soft-gray #F1F0FB */
+    --background: 210 40% 98%; /* Brighter background */
     --foreground: 220 13% 11%; /* Corresponds to portfolio-dark-purple #1A1F2C */
 
     --card: 0 0% 100%;
@@ -13,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 250 89% 75%; /* Corresponds to portfolio-primary #9b87f5 */
+    --primary: 265 89% 70%; /* Brighter primary color */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -22,7 +23,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 196 86% 60%; /* Corresponds to portfolio-accent #33C3F0 */
+    --accent: 198 93% 60%; /* Brighter accent */
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -30,7 +31,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 250 89% 75%; /* portfolio-primary for ring */
+    --ring: 265 89% 70%; /* Brighter ring color */
 
     --radius: 0.5rem;
 
