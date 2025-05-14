@@ -14,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 265 89% 70%; /* Brighter primary color */
+    --primary: 265 89% 70%; /* Vivid Purple */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -23,15 +23,15 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 198 93% 60%; /* Brighter accent */
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 197 88% 48%; /* Ocean Blue */
+    --accent-foreground: 210 40% 98%; /* Adjusted for better contrast with Ocean Blue */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 265 89% 70%; /* Brighter ring color */
+    --ring: 197 88% 48%; /* Ocean Blue for ring */
 
     --radius: 0.5rem;
 
@@ -115,3 +115,4 @@
     @apply bg-portfolio-white p-6 rounded-lg shadow-lg;
   }
 }
+

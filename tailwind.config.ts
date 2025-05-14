@@ -29,7 +29,7 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))',
           // Custom portfolio colors - brightened
-          'portfolio-primary': '#8B5CF6', // Brighter Purple
+          'portfolio-primary': '#8B5CF6', // Brighter Purple (Vivid Purple)
           'portfolio-secondary': '#7C3AED', // Vibrant Purple
 				},
 				secondary: {
@@ -75,6 +75,9 @@ export default {
         'portfolio-neutral-gray': '#64748B',
         'portfolio-white': '#FFFFFF',
         'portfolio-black': '#000000e6',
+        // New vibrant and cool colors
+        'portfolio-ocean-blue': '#0EA5E9', // Ocean Blue
+        'portfolio-magenta-pink': '#D946EF', // Magenta Pink
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -118,3 +121,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
